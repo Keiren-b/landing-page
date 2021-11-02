@@ -6,7 +6,7 @@ body{
 .header, .body{
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 16px 128px;
+    padding: 16px 128px; /* I think this needs to change */
 }
 
 .header {
@@ -63,4 +63,23 @@ button {
 img {
     max-width: 25%;
     height: auto;
+}
+
+.random-info {
+background-color:white;
+}
+.info-header{
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
+}
+/* These chained selectors seem not to work...should i change to individual classes? */
+.info, .text {
+    color:#1f2937;
+}
+.quote, .text {
+    font-size: 36px;
+    color: #152937;
+    font-weight: lighter;
+    font-style: italic;
 }
