@@ -1,21 +1,118 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     min-height: 100vh;
+    margin: 0;
 }
 
-.header, .body{
-    background-color: #1f2937;
-    color: #F9FAF8;
-    padding: 16px 128px; /* I think this needs to change */
-}
+/* HEADER FORMAT*/
 
 .header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight:normal;
+}
+    /* BODY 1 FORMAT*/
+.awesome{
+    display: flex;
+    background-color: #1f2937;
+    
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.big {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+.small {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.signup1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    /*justify-content: flex-start;*/
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    width: 128px
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* draft css 
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    max-width: 900px;
+
+}
+
+.header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
     font-size: 24px;
     font-weight: bold;
-   
+    padding-bottom: 64px;
 }
+
 
 ul {
     display: flex;
@@ -40,14 +137,16 @@ a {
 }
 .awesome {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .big {
     font-size: 48px;
     font-weight:bolder;
+    margin-bottom: 16px;
 }
 .small {
-    color: #e5e7eb
+    color: #e5e7eb;
+    margin-bottom: 16px;
 }
 button {
     border: none;
@@ -67,13 +166,16 @@ img {
 
 .random-info {
 background-color:white;
+padding: 0;
+margin: 0;
+
 }
 .info-header{
 font-size: 36px;
 font-weight: bolder;
 color: #1f2937;
 }
-/* These chained selectors seem not to work...should i change to individual classes? */
+/* These chained selectors seem not to work...should i change to individual classes? 
 .info, .text {
     color:#1f2937;
 }
@@ -83,3 +185,4 @@ color: #1f2937;
     font-weight: lighter;
     font-style: italic;
 }
+*/
