@@ -60,10 +60,311 @@ a {
     padding-bottom: 24px;
 }
 
+.signup1
+{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    width: 128px
+}
+
+.img0 {
+    width: 25%;
+    height: auto;
+}
+    /* Body 2 */
+
+    .info-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1f2937;
+        padding: 24px;
+    }
+.img1 {
+    width: 100px;
+    height: 100px;
+
+}
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 25px;
+}
+.text {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    padding-top: 25px;
+    font-size: 18px;
+    color: #1f2937;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+
+    padding: 150px;
+}
+.quote-text {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 12px;
+}
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    
+}
+.action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 800px;
+    height: 50px;
+   /* margin: 150px 200px;*/
+    padding: 50px 100px ;
+}
+.text-action {
+    display: flex;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-action2 {
+    display: flex;
+    color: #e5e7eb;
+}
+
+.action-button {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 8px 16px;
+    width: 128px;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* draft css 
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    max-width: 900px;
+
+}
+
+.header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 64px;
+}
+
+
+ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight:lighter;
+
+}
+.container {
+    width: 300px;
+   
+
+}
+.awesome {
+    display: flex;
+    justify-content: space-around;
+}
+.big {
+    font-size: 48px;
+    font-weight:bolder;
+    margin-bottom: 16px;
+}
+.small {
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+button {
+    border: none;
+    border-radius: 10px;
+    
+}
+.signup1 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+    
+}
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.random-info {
+background-color:white;
+padding: 0;
+margin: 0;
+
+}
+.info-header{
+font-size: 36px;
+font-weight: bolder;
+color: #1f2937;
+}
+/* These chained selectors seem not to work...should i change to individual classes? 
+.info, .text {
+    color:#1f2937;
+}
+.quote, .text {
+    font-size: 36px;
+    color: #152937;
+    font-weight: lighter;
+    font-style: italic;
+}
+*/
+
+
+
+
+
+
+
+/*body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* HEADER FORMAT
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight:normal;
+}
+    /* BODY 1 FORMAT*
+.awesome{
+    display: flex;
+    background-color: #1f2937;
+    
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 200px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.big {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+.small {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
 .signup1 {
     background-color: #3882f6;
     color: #f9faf8;
-    /*justify-content: flex-start;*/
+    /*justify-content: flex-start;*
     border: none;
     border-radius: 10px;
     padding: 8px 16px;
